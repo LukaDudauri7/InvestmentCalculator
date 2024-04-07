@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <Header />
-      <UserInput onChnage={handleChange} userInput={{userInput}}/>
+      <UserInput onChange={handleChange} userInput={{userInput}}/>
       <Results input={userInput}/>
     </>
   )
